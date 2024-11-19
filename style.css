@@ -1,0 +1,162 @@
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v21-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v21-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v21-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v21-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  margin: 0;
+}
+img {
+  object-fit: cover;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.625;
+  color: #fff;
+  font-weight: 500;
+  background-color: #ff7979;
+  background-image: url("../images/bg-intro-desktop.png");
+  background-position: center;
+  background-repeat: repeat;
+  display: grid;
+  place-items: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.content {
+  width: 100%;
+  max-width: 522px;
+}
+.content__title {
+  font-size: 5rem;
+  line-height: 1.1;
+  margin-bottom: 1.1rem;
+}
+.form-content {
+  width: 100%;
+  max-width: 540px;
+}
+.form__suggest {
+  width: 54rem;
+  padding: 1.7rem 11.2rem;
+  background-color: #5e54a4;
+  box-shadow: 0 0.8rem 0 #00000025;
+  line-height: 1.7;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+  font-weight: 400;
+}
+.form__suggest span {
+  line-height: 1.7;
+  letter-spacing: 0.027rem;
+}
+.form {
+  padding: 4rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #3d3b48;
+  box-shadow: 0 0.8rem 0 #00000025;
+}
+.form-content__input {
+  outline: none;
+  border: 1px solid #dedede;
+  color: #3d3b48;
+  width: 46rem;
+  height: 5.6rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.025rem;
+  padding-left: 3.2rem;
+  font-weight: 600;
+}
+.form-content__input:focus {
+  outline: auto;
+  outline-color: #5e54a4;
+}
+.form-content__input::placeholder {
+  color: rgba(61, 59, 72, 75%);
+}
+
+/*btn*/
+
+.form button {
+  width: 46rem;
+  height: 5.6rem;
+  background-color: #38cc8b;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid #00000017;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 1.7;
+  border: none;
+  color: #fff;
+  margin-bottom: 0.7rem;
+}
+.terms-and-services a {
+  color: #ff7979;
+  font-weight: 700;
+}
+.terms-and-services {
+  color: #bab7d4;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2.3;
+  font-weight: 500;
+}
