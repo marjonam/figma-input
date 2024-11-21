@@ -82,6 +82,7 @@ main {
   font-size: 5rem;
   line-height: 1.1;
   margin-bottom: 1.1rem;
+  font-family: "Poppins", sans-serif;
 }
 .form-content {
   width: 100%;
@@ -99,6 +100,7 @@ main {
   font-weight: 400;
 }
 .form__suggest span {
+  font-family: Poppins;
   line-height: 1.7;
   letter-spacing: 0.027rem;
 }
@@ -122,6 +124,7 @@ main {
   letter-spacing: 0.025rem;
   padding-left: 3.2rem;
   font-weight: 600;
+  font-family: Poppins;
 }
 .form-content__input:focus {
   outline: auto;
@@ -148,6 +151,7 @@ main {
   border: none;
   color: #fff;
   margin-bottom: 0.7rem;
+  font-family: Poppins;
 }
 .terms-and-services a {
   color: #ff7979;
